@@ -40,7 +40,7 @@ public class Program {
 			list.add(new Employee(id, name, salary));
 		}
 
-		// PART 2 - UPDATING SALARY OF GIVEN EMPLOYEE:
+		//Updating Salary
 		
 		System.out.println();
 		System.out.print("Enter the employee id that will have salary increase: ");
@@ -55,7 +55,7 @@ public class Program {
 			emp.increaseSalary(percentage);
 		}
 		
-		// PART 3 - LISTING EMPLOYEES:
+		//Showing employees
 		
 		System.out.println();
 		System.out.println("List of employees:");
